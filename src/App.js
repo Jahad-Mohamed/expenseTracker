@@ -1,10 +1,11 @@
 import Expenses from "./conponents/Expenses/Expenses";
+import NewExpense from "./conponents/NewExpense/NewExpense";
 
 const App = () => {
   const expenses = [
     {
       id: "e1",
-      title: "",
+      title: "Petrol",
       amount: 94.12,
       date: new Date(2020, 7, 14),
     },
@@ -24,6 +25,8 @@ const App = () => {
   ];
   return (
     <div>
+      <h1>Expense Tracker</h1>
+      <NewExpense />
       <Expenses items={expenses} />
     </div>
   );
