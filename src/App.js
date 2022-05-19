@@ -5,15 +5,15 @@ import react, { useState } from "react";
 const DUMMY_EXPENSES = [
   {
     id: "e1",
-    title: "Grocery Shopping",
-    amount: 91.54,
-    date: new Date(2022, 3, 14),
+    title: "Cheeky Nandos",
+    amount: 21.54,
+    date: new Date(2022, 3, 24),
   },
   {
     id: "e2",
-    title: "Rent",
-    amount: 1294.12,
-    date: new Date(2022, 1, 14),
+    title: "Festival Tickets",
+    amount: 194.12,
+    date: new Date(2022, 4, 19),
   },
   { id: "e3", title: "New TV", amount: 799.49, date: new Date(2021, 2, 12) },
   {
