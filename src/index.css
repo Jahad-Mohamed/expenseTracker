@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  padding-left: 1rem;
   margin: 0;
   background-color: #0e3769;
   color: rgb(233, 231, 231);
